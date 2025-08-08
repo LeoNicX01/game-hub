@@ -1,9 +1,9 @@
-import { Grid, Show, GridItem, Box, Flex } from '@chakra-ui/react'
-import GameGrid from '../components/GameGrid'
-import GameHeading from '../components/GameHeading'
-import GenreList from '../components/GenreList'
-import PlatformSelector from '../components/PlatformSelector'
-import SortSelector from '../components/SortSelector'
+import { Grid, Show, GridItem, Box, Flex } from "@chakra-ui/react";
+import GameGrid from "../components/GameGrid";
+import GameHeading from "../components/GameHeading";
+import GenreList from "../components/GenreList";
+import PlatformSelector from "../components/PlatformSelector";
+import SortSelector from "../components/SortSelector";
 
 const HomePage = () => {
   return (
@@ -23,7 +23,7 @@ const HomePage = () => {
         </GridItem>
       </Show>
       <GridItem area="main">
-        <Box paddingLeft={2}>
+        <Box paddingLeft={3}>
           <GameHeading />
           <Flex marginBottom={5}>
             <Box marginRight={5}>
@@ -35,7 +35,7 @@ const HomePage = () => {
         <GameGrid />
       </GridItem>
     </Grid>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
